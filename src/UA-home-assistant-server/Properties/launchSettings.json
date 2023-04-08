@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UA-home-assistant-server": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
