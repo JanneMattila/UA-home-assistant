@@ -1,0 +1,14 @@
+HumiditySensorType,1,ObjectType
+HumiditySensorType_Humidity,2,Variable
+HumiditySensorType_Humidity_EURange,6,Variable
+PressureSensorType,8,ObjectType
+PressureSensorType_Pressure,9,Variable
+PressureSensorType_Pressure_EURange,13,Variable
+TemperatureSensorType,15,ObjectType
+TemperatureSensorType_Temperature,16,Variable
+TemperatureSensorType_Temperature_EURange,20,Variable
+BatteryDiagnosticType,22,ObjectType
+BatteryDiagnosticType_Battery,23,Variable
+BatteryDiagnosticType_Battery_EURange,27,Variable
+IdentityDiagnosticType,29,ObjectType
+IdentityDiagnosticType_Battery,30,Variable

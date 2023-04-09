@@ -5,7 +5,7 @@
 	xmlns:opc="http://opcfoundation.org/UA/ModelDesign.xsd"
 	xmlns:ua="http://opcfoundation.org/UA/"
 	xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd"
-	xmlns="http://opcfoundation.org/BatchPlant"
+	xmlns="http://opcfoundation.org/HomeAssistant"
 	TargetNamespace="http://opcfoundation.org/HomeAssistant">
 	<opc:Namespaces>
 		<opc:Namespace Name="OpcUa" Prefix="Opc.Ua" XmlNamespace="http://opcfoundation.org/UA/2008/02/Types.xsd">http://opcfoundation.org/UA/</opc:Namespace>
@@ -17,22 +17,6 @@
 	-->
 
 	<!-- Sensor types -->
-	<opc:ObjectType SymbolicName="GenericSensorType" BaseType="ua:BaseObjectType">
-		<opc:Description>A generic sensor that read a process value.</opc:Description>
-		<opc:Children>
-			<opc:Variable SymbolicName="Output" DataType="ua:Double" ValueRank="Scalar" TypeDefinition="ua:AnalogItemType" />
-			<opc:Property SymbolicName="Units" DataType="ua:String" ValueRank="Scalar"  AccessLevel="ReadWrite" />
-		</opc:Children>
-	</opc:ObjectType>
-
-	<opc:ObjectType SymbolicName="GenericActuatorType" BaseType="ua:BaseObjectType">
-		<opc:Description>Represents a piece of equipment that causes some action to occur.</opc:Description>
-		<opc:Children>
-			<opc:Variable SymbolicName="Input" DataType="ua:Double" ValueRank="Scalar" TypeDefinition="ua:AnalogItemType" AccessLevel="ReadWrite" />
-			<opc:Variable SymbolicName="Output" DataType="ua:Double" ValueRank="Scalar" TypeDefinition="ua:AnalogItemType" AccessLevel="ReadWrite" />
-		</opc:Children>
-	</opc:ObjectType>
-
 	<opc:ObjectType SymbolicName="HumiditySensorType" BaseType="ua:BaseObjectType">
 		<opc:Description>Humidity in percentage</opc:Description>
 		<opc:Children>

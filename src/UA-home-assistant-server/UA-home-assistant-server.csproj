@@ -11,6 +11,10 @@
   <ItemGroup>
     <PackageReference Include="HassClient.WS" Version="1.0.14" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua" Version="1.4.371.60" />
+    <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua.Configuration" Version="1.4.371.60" />
+    <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua.Security.Certificates" Version="1.4.371.60" />
+    <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua.Server" Version="1.4.371.60" />
   </ItemGroup>
 
   <ItemGroup>
